@@ -1,0 +1,39 @@
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <h1 id="title">Survey</h1>
+    <p id="description">Please fill out the survey form below:</p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Your Name" required/> <br>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Your Mail Id" required/> <br>
+      <label id="number-label">Number</label>
+      <input type="number" id="number" placeholder="Mobile number" min="1" max="10" required/> <br>
+      <label for="cars">Gender:</label>
+      <select name="gender" id="dropdown">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select> <br>
+      <label id="opts1">Student</label>
+      <input type="radio" name="yes" value="yes"/>yes</input>
+      <input type="radio" name="no" value="no"/>no</input> <br>
+      <label id="opts2">Working</label>
+      <input type="radio" name="yes" value="yes">yes</input>
+      <input type="radio" name="no" value="no"/>no</input> <br>
+      <label id="opts3">Rate :</label>
+      <input type="checkbox" name="one" value="one"/>
+      <input type="checkbox" name="two" value="two"/>
+      <input type="checkbox" name="three" value="three"/>
+      <input type="checkbox" name="four" value="four"/>
+      <input type="checkbox" name="five" value="five"/> <br>
+      <label type="t-area">Comments :</label> <br>
+      <textarea></textarea> <br>
+      <input type="submit" id="submit"/>
+  
+    </form>
+  </body>
+</html>
