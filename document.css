@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+#navbar {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar header {
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#main-doc {
+  margin: 20px;
+}
+
+.main-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px ;
+}
+
+.main-section header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main-section p {
+  margin-bottom: 10px;
+}
+
+.code {
+  background-color: #f7f7f7;
+  padding: 5px;
+  font-family: "Courier New", monospace;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+  color: gray;
+}
+
+#Introduction {
+  background-color: #000;
+  color: white;
+}
+
+#Variables {
+  background-color: #fff;
+}
+
+#Control_flow {
+  background-color: #000;
+  color: white;
+}
+
+#Functions {
+  background-color: #fff;
+}
+
+#Modules {
+  background-color: #000;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .main-section {
+    padding: 10px;
+  }
+
+  .main-section header {
+    font-size: 20px;
+  }
+}
