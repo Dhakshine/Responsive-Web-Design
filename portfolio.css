@@ -1,0 +1,81 @@
+#navbar {
+  position: fixed;
+  top: 0%;
+}
+
+@media (max-width<600px) {
+  background: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#welcome-section {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  color: #333;
+  font-size: 36px;
+  margin: 0;
+}
+
+#navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.project-tile {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.project-tile h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-tile p {
+  color: #666;
+}
+
+.project-tile a {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.project-tile a:hover {
+  background-color: #666;
+}
